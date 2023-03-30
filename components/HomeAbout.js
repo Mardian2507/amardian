@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import AudioInfo from "./AudioInfo";
+import CountVisit from "./CountVisit";
 
 const icons = [
   {
@@ -91,13 +92,17 @@ export default function HomeAbout() {
               </h1>
             </div>
             <p
-              className="py-4 pb-10 text-black dark:text-light text-shadow-light dark:text-shadow-secondary font-ubuntu"
+              className="py-4 pb-5 text-black dark:text-light text-shadow-light dark:text-shadow-secondary font-ubuntu"
               data-aos="flip-right"
               data-aos-duration="2000"
             >
               I&#39;m focused on building responsive front-end web applications
               integrating back-end technologies.
             </p>
+          </div>
+
+          <div className="flex justify-center pb-4">
+            <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/a9e407a6-7206-474d-909a-4630c22637d7/?amount=1" />
           </div>
 
           <div className="mx-auto max-w-[320px] md:max-w-full">

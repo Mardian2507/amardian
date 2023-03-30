@@ -10,6 +10,7 @@ import Avatar5 from "/public/assets/avatar/avatar5.webp";
 import AvatarClose from "/public/assets/avatar/avatarClose.webp";
 import Mp3Icon from "components/svgs/mp3Icon";
 import AudioPlayer from "components/Audioplayer";
+import CountVisit from "components/CountVisit";
 
 const imgSkills = [
   {
@@ -185,6 +186,8 @@ export default function Skills() {
               What I Can Do
             </h2>
           </div>
+
+          <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/f721a90c-32a4-4bd0-b218-23bda4e1009c/?amount=1" />
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 z-20 py-5">
             {imgSkills.map((items) => (

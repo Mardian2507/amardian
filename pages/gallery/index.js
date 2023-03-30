@@ -10,6 +10,7 @@ import { auth } from "config/firebase";
 import LogOut from "components/LogOut";
 import GoogleLogin from "components/GoogleLogin";
 import PageLoading from "components/PageLoading";
+import CountVisit from "components/CountVisit";
 
 export default function Gallery() {
   const [user] = useAuthState(auth);
@@ -36,6 +37,8 @@ export default function Gallery() {
             >
               Gallery
             </h2>
+
+            <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/bfada23c-81e3-4a14-8fb9-ca9823ff34b5/?amount=1" />
 
             {user ? <LogOut /> : <GoogleLogin />}
 

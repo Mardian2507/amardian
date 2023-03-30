@@ -1,5 +1,6 @@
 import Layout from "@components/Layout";
 import AudioInfo from "components/AudioInfo";
+import CountVisit from "components/CountVisit";
 import GithubIcon from "components/svgs/githubIcon";
 import LinkedinIcon from "components/svgs/linkedinIcon";
 import ResumeIcon from "components/svgs/resumeIcon";
@@ -59,6 +60,8 @@ export default function Contact() {
             <h2>Get In Touch</h2>
             <AudioInfo audioSrc={audioSrc} />
           </div>
+
+          <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/b6de2a62-62d6-4a46-9805-d029dbd234a1/?amount=1" />
 
           <div className="grid lg:grid-cols-5 gap-8">
             {/* left */}
@@ -294,9 +297,8 @@ export default function Contact() {
             </p>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d988.9425514456555!2d107.34461482917149!3d-7.490605670001978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjknMjYuMiJTIDEwN8KwMjAnNDIuNiJF!5e0!3m2!1sen!2sid!4v1679520435162!5m2!1sen!2sid"
-              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               className="w-full h-80 rounded-md border-2 border-secondary/30"
             ></iframe>
           </div>

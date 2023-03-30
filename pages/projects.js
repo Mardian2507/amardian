@@ -4,6 +4,7 @@ import cryptoImg from "@public/assets/projects/crypto.jpg";
 import netflixImg from "@public/assets/projects/netflix.jpg";
 import twitchImg from "@public/assets/projects/twitch.jpg";
 import ProjectItem from "components/ProjectItem";
+import CountVisit from "components/CountVisit";
 
 export default function Projects() {
   return (
@@ -21,6 +22,8 @@ export default function Projects() {
           <h2 className="py-4" data-aos="zoom-in-up" data-aos-duration="1000">
             What I&apos;ve Built
           </h2>
+
+          <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/a537a783-fe82-4461-b831-6fa391333b42/?amount=1" />
 
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectItem
