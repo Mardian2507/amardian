@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import AudioInfo from "./AudioInfo";
-import CountVisit from "./CountVisit";
 
 const icons = [
   {
@@ -99,10 +98,6 @@ export default function HomeAbout() {
               I&#39;m focused on building responsive front-end web applications
               integrating back-end technologies.
             </p>
-          </div>
-
-          <div className="flex justify-center pb-4">
-            <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/a9e407a6-7206-474d-909a-4630c22637d7/?amount=1" />
           </div>
 
           <div className="mx-auto max-w-[320px] md:max-w-full">

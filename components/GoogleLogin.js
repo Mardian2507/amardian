@@ -10,9 +10,7 @@ export default function GoogleLogin() {
     const provider = new GoogleAuthProvider();
     try {
       setIsLoading(true);
-      // alert(
-      //   "Setelah meng-klik akun google, mohon tunggu sebentar 5 detik, Terimakasih"
-      // );
+      alert("Loading 5 Second");
       await signInWithRedirect(auth, provider);
       setIsLoading(false);
     } catch (error) {

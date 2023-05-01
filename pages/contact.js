@@ -1,6 +1,5 @@
 import Layout from "@components/Layout";
 import AudioInfo from "components/AudioInfo";
-import CountVisit from "components/CountVisit";
 import GithubIcon from "components/svgs/githubIcon";
 import LinkedinIcon from "components/svgs/linkedinIcon";
 import ResumeIcon from "components/svgs/resumeIcon";
@@ -60,8 +59,6 @@ export default function Contact() {
             <h2>Get In Touch</h2>
             <AudioInfo audioSrc={audioSrc} />
           </div>
-
-          <CountVisit apiUrl="https://api.countapi.xyz/update/amardian.my.id/b6de2a62-62d6-4a46-9805-d029dbd234a1/?amount=1" />
 
           <div className="grid lg:grid-cols-5 gap-8">
             {/* left */}
