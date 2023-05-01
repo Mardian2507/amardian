@@ -25,7 +25,7 @@ const icons = [
     text: "WhatsApp",
   },
   {
-    href: "/404",
+    href: "/assets/doc/CV-Mardian-Suherman.pdf",
     img: ResumeIcon,
     text: "Resume",
   },

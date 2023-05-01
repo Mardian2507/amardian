@@ -10,7 +10,7 @@ export default function GoogleLogin() {
     const provider = new GoogleAuthProvider();
     try {
       setIsLoading(true);
-      alert("Loading 5 Second");
+      // alert("Loading 5 Second");
       await signInWithRedirect(auth, provider);
       setIsLoading(false);
     } catch (error) {
