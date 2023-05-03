@@ -1,8 +1,8 @@
 import Layout from "@components/Layout";
 import propertyImg from "@public/assets/projects/property.jpg";
 import cryptoImg from "@public/assets/projects/crypto.jpg";
-import netflixImg from "@public/assets/projects/netflix.jpg";
-import twitchImg from "@public/assets/projects/twitch.jpg";
+import MarrimaCafeImg from "@public/assets/projects/marrimacafe.webp";
+import MozTrackerImg from "@public/assets/projects/moztracker.webp";
 import ProjectItem from "components/ProjectItem";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -164,7 +164,7 @@ export default function Projects() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <ProjectItem
+            {/* <ProjectItem
               title="Property Finder"
               backgroundImg={propertyImg}
               projectUrl="/project1"
@@ -175,18 +175,18 @@ export default function Projects() {
               backgroundImg={cryptoImg}
               projectUrl="/project2"
               tech="React JS"
-            />
+            /> */}
             <ProjectItem
-              title="Netflix App"
-              backgroundImg={netflixImg}
+              title="MaRRima Cafe"
+              backgroundImg={MarrimaCafeImg}
               projectUrl="/project3"
-              tech="React JS"
+              tech="Slicing Landing Page"
             />
             <ProjectItem
-              title="Twitch UI"
-              backgroundImg={twitchImg}
+              title="Moz Tracker"
+              backgroundImg={MozTrackerImg}
               projectUrl="/project4"
-              tech="Next JS"
+              tech="Slicing From Sketch"
             />
           </div>
         </div>
