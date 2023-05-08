@@ -1,56 +1,66 @@
 import Layout from "@components/Layout";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import Tilt from "react-parallax-tilt";
 
 const imgSkills = [
   {
     id: 1,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/html.png",
+    imgSkill: "/assets/skills/html.webp",
     text: "HTML",
   },
   {
     id: 2,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/css.png",
+    imgSkill: "/assets/skills/css.webp",
     text: "CSS",
   },
   {
     id: 3,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/javascript.png",
+    imgSkill: "/assets/skills/javascript.webp",
     text: "JavaScript",
   },
   {
     id: 4,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/react.png",
-    text: "React",
+    imgSkill: "/assets/skills/firebase.webp",
+    text: "Firebase",
   },
   {
     id: 5,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/tailwind.png",
+    imgSkill: "/assets/skills/tailwind.webp",
     text: "Tailwind",
   },
   {
     id: 6,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/firebase.png",
-    text: "Firebase",
+    imgSkill: "/assets/skills/bootstrap.webp",
+    text: "Bootstrap",
   },
   {
     id: 7,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/github1.png",
+    imgSkill: "/assets/skills/github.webp",
     text: "Github",
   },
   {
     id: 8,
     href: "https://github.com/Mardian2507",
-    imgSkill: "/assets/skills/nextjs.png",
+    imgSkill: "/assets/skills/nextjs.webp",
     text: "NextJS",
+  },
+  {
+    id: 9,
+    href: "https://github.com/Mardian2507",
+    imgSkill: "/assets/skills/react.webp",
+    text: "React",
+  },
+  {
+    id: 10,
+    href: "https://github.com/Mardian2507",
+    imgSkill: "/assets/skills/vuejs.webp",
+    text: "Vue",
   },
 ];
 
@@ -72,11 +82,11 @@ export default function Skills() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 z-20 py-5">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 z-20 py-5">
             {imgSkills.map((items) => (
               <div
                 key={items.id}
-                className="backdrop-blur-xl p-6 shadow-md shadow-black rounded-xl"
+                className="backdrop-blur-xl p-6 shadow-md shadow-black hover:shadow-lg rounded-xl"
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >

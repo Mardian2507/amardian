@@ -57,6 +57,7 @@ export default function NavbarMobile() {
         src="/assets/audio/Let's-Build.mp3"
         type="audio/mpeg"
       />
+
       <button
         onClick={() => {
           setNav(!nav);

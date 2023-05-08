@@ -33,9 +33,9 @@ export default function Layout(props) {
 
       <div className="flex flex-col lg:max-w-7xl mx-auto">
         <Navbar />
-        <div className="flex-grow bg-slate-100 dark:bg-slate-800 text-secondary dark:text-light font-overpass ">
+        <section className="flex-grow bg-slate-100 dark:bg-slate-800 text-secondary dark:text-light font-overpass ">
           {props.children}
-        </div>
+        </section>
         <NavDown />
         <Footer />
       </div>

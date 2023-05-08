@@ -20,21 +20,19 @@ export default function AudioInfo({ audioSrc }) {
   }
 
   return (
-    <>
-      <div className="cursor-pointer flex items-center">
-        <audio ref={audioRef} src={audioSrc} onEnded={handleAudioEnded} />
-        <button onClick={handleOnOff} className="p-2 opacity-60">
-          {show ? (
-            <div>
-              <SoundOn className="animate-click" />
-            </div>
-          ) : (
-            <div>
-              <SoundOff className="animate-click" />
-            </div>
-          )}
-        </button>
-      </div>
-    </>
+    <div className="cursor-pointer flex items-center">
+      <audio ref={audioRef} src={audioSrc} onEnded={handleAudioEnded} />
+      <button onClick={handleOnOff} className="p-2 opacity-60">
+        {show ? (
+          <div>
+            <SoundOn className="animate-click" />
+          </div>
+        ) : (
+          <div>
+            <SoundOff className="animate-click" />
+          </div>
+        )}
+      </button>
+    </div>
   );
 }

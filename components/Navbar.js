@@ -20,20 +20,20 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav
+    <div
       className={
         shadow
           ? "w-full lg:max-w-7xl fixed z-40 py-2 px-[13px] md:px-[47px] shadow-xl backdrop-blur-lg"
           : "w-full lg:max-w-7xl fixed z-40 py-2 px-[13px] md:px-[47px]"
       }
     >
-      <div className="flex flex-row justify-between items-center mx-auto">
+      <nav className="flex flex-row justify-between items-center mx-auto">
         <LogoMar />
         <NavbarDekstop />
         <TogleDarkMode />
         {/* <BtnSearch /> */}
         <NavbarMobile />
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
