@@ -39,7 +39,7 @@ export default function Gallery() {
 
             {user ? <LogOut /> : <GoogleLogin />}
 
-            <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-2 mt-5 mb-20 ">
+            <div className="grid grid-cols-3 gap-0 lg:grid-cols-6 lg:gap-1 mt-5 mb-20 ">
               {posts.map((post) => (
                 <Tilt
                   key={post.id}
