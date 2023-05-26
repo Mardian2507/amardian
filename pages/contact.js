@@ -1,5 +1,6 @@
 import Layout from "@components/Layout";
 import AudioInfo from "components/AudioInfo";
+import ArrowUpMap from "components/svgs/arrowUpmap";
 import GithubIcon from "components/svgs/githubIcon";
 import LinkedinIcon from "components/svgs/linkedinIcon";
 import ResumeIcon from "components/svgs/resumeIcon";
@@ -288,16 +289,21 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="pt-20 flex-col flex justify-center items-center w-full">
-            <p className="text-sm font-neuton">
-              I was born and raised in Cidaun
-            </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d988.9425514456555!2d107.34461482917149!3d-7.490605670001978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjknMjYuMiJTIDEwN8KwMjAnNDIuNiJF!5e0!3m2!1sen!2sid!4v1679520435162!5m2!1sen!2sid"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-80 rounded-md border-2 border-secondary/30"
-            ></iframe>
+          <div className="pt-20 pb-60 w-full">
+            <div className="relative py-2 border-2 dark:border-light border-primary shadow-md shadow-secondary hover:shadow-none rounded-sm w-full">
+              <p className="text-sm font-neuton text-center">My Location</p>
+              <input
+                type="checkbox"
+                className="absolute w-full h-full z-20 top-0 opacity-0 peer cursor-pointer"
+              />
+              <ArrowUpMap className="absolute right-6 top-[6px] peer-checked:rotate-180 transition-all duration-300 opacity-80" />
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d988.9425514456555!2d107.34461482917149!3d-7.490605670001978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjknMjYuMiJTIDEwN8KwMjAnNDIuNiJF!5e0!3m2!1sen!2sid!4v1679520435162!5m2!1sen!2sid"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute w-full h-0 peer-checked:h-80 top-11 rounded-md transition-all duration-300"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
