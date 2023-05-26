@@ -290,7 +290,7 @@ export default function Contact() {
           </div>
 
           <div className="pt-20 pb-60 w-full">
-            <div className="relative py-2 border-2 dark:border-light border-primary shadow-md shadow-secondary hover:shadow-none rounded-sm w-full">
+            <div className="relative py-2 border-2 dark:border-light border-primary shadow-md shadow-slate-600 hover:shadow-none rounded-sm w-full">
               <p className="text-sm font-neuton text-center">My Location</p>
               <input
                 type="checkbox"
@@ -301,7 +301,7 @@ export default function Contact() {
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d988.9425514456555!2d107.34461482917149!3d-7.490605670001978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjknMjYuMiJTIDEwN8KwMjAnNDIuNiJF!5e0!3m2!1sen!2sid!4v1679520435162!5m2!1sen!2sid"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="absolute w-full h-0 peer-checked:h-80 top-11 rounded-md transition-all duration-300"
+                className="absolute w-full h-0 peer-checked:h-80 top-10 transition-all duration-300"
               ></iframe>
             </div>
           </div>
