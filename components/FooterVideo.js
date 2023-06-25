@@ -42,7 +42,6 @@ export default function FooterVideo() {
           <button onClick={handlePlayPause}>
             {showFooter ? (
               <div>
-                <span className="text-xs font-semibold">Namaste</span>
                 <StopIcon className="animate-click animate-spin" />
                 <span>Pause</span>
               </div>

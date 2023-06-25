@@ -1,6 +1,6 @@
 import Layout from "@components/Layout";
 import propertyImg from "@public/assets/projects/property.jpg";
-import cryptoImg from "@public/assets/projects/crypto.jpg";
+import ytbTomp3 from "@public/assets/projects/ytbtomp3.webp";
 import MarrimaCafeImg from "@public/assets/projects/marrimacafe.webp";
 import MozTrackerImg from "@public/assets/projects/moztracker.webp";
 import ProjectItem from "components/ProjectItem";
@@ -169,13 +169,13 @@ export default function Projects() {
               backgroundImg={propertyImg}
               projectUrl="/project1"
               tech="React JS"
-            />
-            <ProjectItem
-              title="Crypto App"
-              backgroundImg={cryptoImg}
-              projectUrl="/project2"
-              tech="React JS"
             /> */}
+            <ProjectItem
+              title="Youtube To Mp3"
+              backgroundImg={ytbTomp3}
+              projectUrl="/project2"
+              tech="Video Converter"
+            />
             <ProjectItem
               title="MaRRima Cafe"
               backgroundImg={MarrimaCafeImg}
