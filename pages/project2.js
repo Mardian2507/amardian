@@ -38,7 +38,7 @@ export default function Project3() {
         <div className="col-span-4 shadow-md shadow-secondary dark:shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="text-sm text-secondary/90 dark:text-light/70 grid grid-cols-2">
+            <div className="text-sm text-secondary/90 dark:text-light/70 grid grid-cols-4">
               <p className="py-2 flex items-center justify-center">
                 <TechIcon className="pr-1 -mt-2" /> Next JS
               </p>
