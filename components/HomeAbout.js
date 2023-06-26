@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import AudioInfo from "./AudioInfo";
+import ParallaxSunset from "./ParallaxSunset";
 
 const icons = [
   {
@@ -45,9 +46,12 @@ export default function HomeAbout() {
 
   return (
     <div className="w-full h-full">
-      <audio src="/assets/audio/Welcome.mp3" type="audio/mpeg" autoPlay />
+      {/* <audio src="/assets/audio/Welcome.mp3" type="audio/mpeg" autoPlay /> */}
+      <div className="hidden lg:block">
+        <ParallaxSunset />
+      </div>
       <div
-        className="relative flex w-full lg:max-w-7xl justify-center items-center min-h-screen overflow-hidden"
+        className="relative flex w-full lg:max-w-7xl justify-center items-center min-h-screen overflow-hidden mt-[-40px]"
         onMouseMove={handleMouseMove}
       >
         <div
@@ -55,7 +59,7 @@ export default function HomeAbout() {
           style={{ top: position.y, left: position.x }}
         />
         <div className="absolute z-0 bg-bg1 dark:bg-bg2 bg-fixed bg-center bg-cover bg-no-repeat left-0 right-0 top-0 bottom-0" />
-        <div className="absolute z-10 bg-gradient-to-t from-slate-100 dark:bg-gradient-to-t dark:from-slate-800 left-0 right-0 top-0 bottom-0 mb-[-5px]" />
+        <div className="absolute z-20 bg-gradient-to-t from-slate-100 dark:bg-gradient-to-t dark:from-slate-800 left-0 right-0 top-0 bottom-0 mb[-5px]" />
         <div className="px-5 z-20">
           <div className="text-center cursor-default">
             <p
@@ -153,10 +157,10 @@ export default function HomeAbout() {
               technologies. I&#39;m passionate about learning new technologies
               and understand there is more than one way to accomplish a task.
               Though I am most proficient in building front-end applications
-              using HTML, CSS, Javascript, NextJS and TailwindCSS. I am a quick
-              learner and can pick up new tech stacks as needed. I believe that
-              being a great developer is not using one specific language, but
-              choosing the best tool for the job.
+              using NextJS and TailwindCSS. I am a quick learner and can pick up
+              new tech stacks as needed. I believe that being a great developer
+              is not using one specific language, but choosing the best tool for
+              the job.
             </p>
 
             <p className="py-2 pb-20 text-secondary dark:text-slate-300 underline text-center md:text-start font-neuton">
