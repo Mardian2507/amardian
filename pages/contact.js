@@ -44,19 +44,11 @@ export default function Contact() {
     <Layout title="Mardian Contact">
       <div id="contact" className="w-full min-h-screen">
         <div className="lg:max-w-7xl m-auto px-2 pt-16 pb-24 w-full ">
-          <h2
-            className="pt-2 text-center tracking-widest text-primary uppercase"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
+          <h2 className="pt-2 text-center tracking-widest text-primary uppercase">
             Contact
           </h2>
 
-          <div
-            className="flex items-center py-4"
-            data-aos="zoom-in-up"
-            data-aos-duration="1000"
-          >
+          <div className="flex items-center py-4">
             <h2>Get In Touch</h2>
             <AudioInfo audioSrc={audioSrc} />
           </div>
@@ -115,19 +107,9 @@ export default function Contact() {
                 </Tilt>
 
                 <div>
-                  <h2
-                    className="py-2"
-                    // data-aos="zoom-in-up"
-                    // data-aos-duration="3000"
-                  >
-                    Mardian Suherman
-                  </h2>
+                  <h2 className="py-2">Mardian Suherman</h2>
                   <p className="font-semibold">Front-End Developer</p>
-                  <p
-                    className="py-4"
-                    // data-aos="flip-right"
-                    // data-aos-duration="2000"
-                  >
+                  <p className="py-4">
                     I am available for freelance or full-time positions. Contact
                     me and let&apos;s talk.
                   </p>
@@ -176,13 +158,7 @@ export default function Contact() {
                   <div className="grid md:grid-cols-2 gap-4 w-full py-1">
                     <div className="flex flex-col">
                       <label htmlFor="name">
-                        <span
-                          className="text-label"
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
-                        >
-                          Name
-                        </span>
+                        <span className="text-label">Name</span>
                         <input
                           id="name"
                           type="text"
@@ -196,13 +172,7 @@ export default function Contact() {
                     </div>
                     <div className="flex flex-col">
                       <label htmlFor="phone">
-                        <span
-                          className="text-label"
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
-                        >
-                          Phone Number
-                        </span>
+                        <span className="text-label">Phone Number</span>
                         <input
                           id="phone"
                           type="tel"
@@ -218,13 +188,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col py-1">
                     <label htmlFor="email">
-                      <span
-                        className="text-label"
-                        data-aos="fade-down"
-                        data-aos-duration="1000"
-                      >
-                        Email
-                      </span>
+                      <span className="text-label">Email</span>
                       <input
                         id="email"
                         type="email"
@@ -237,13 +201,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col py-1">
                     <label htmlFor="subject">
-                      <span
-                        className="text-label"
-                        data-aos="fade-down"
-                        data-aos-duration="1000"
-                      >
-                        Subject
-                      </span>
+                      <span className="text-label">Subject</span>
                       <input
                         id="subject"
                         type="text"
@@ -257,13 +215,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col py-1">
                     <label htmlFor="message">
-                      <span
-                        className="text-label"
-                        data-aos="fade-down"
-                        data-aos-duration="1000"
-                      >
-                        Message
-                      </span>
+                      <span className="text-label">Message</span>
                       <textarea
                         id="message"
                         rows="5"
@@ -275,11 +227,7 @@ export default function Contact() {
                       <p className="text-corect">Message Invalid</p>
                     </label>
                   </div>
-                  <button
-                    className="relative group w-full py-6 rounded-lg bg-primary before:rounded-lg before:absolute before:inset-0 before:transition-transform before:duration-700 before:scale-x-0 before:hover:scale-x-100 before:origin-left  before:hover:bg-secondary before:hover:dark:bg-gray-300 mt-4"
-                    data-aos="zoom-in-up"
-                    data-aos-duration="1000"
-                  >
+                  <button className="relative group w-full py-6 rounded-lg bg-primary before:rounded-lg before:absolute before:inset-0 before:transition-transform before:duration-700 before:scale-x-0 before:hover:scale-x-100 before:origin-left  before:hover:bg-secondary before:hover:dark:bg-gray-300 mt-4">
                     <span className="inset-center z-10 text-light dark:group-hover:text-secondary">
                       Send Message
                     </span>

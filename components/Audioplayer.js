@@ -17,7 +17,7 @@ export default function AudioPlayer({ audioList }) {
 
   useEffect(() => {
     audioRef.current.load();
-    setIsPlaying(true);
+    setIsPlaying(false);
   }, [currentIndex]);
 
   const playSong = () => {
@@ -56,7 +56,6 @@ export default function AudioPlayer({ audioList }) {
     <div className="w-full h-40 flex flex-col items-center justify-center">
       <div className="flex flex-row w-3/4 md:w-1/2 justify-around backdrop-blur-sm p-2 rounded-lg shadow-md shadow-black dark:shadow-light/60">
         <audio
-          autoPlay
           ref={audioRef}
           src={currentAudio.audioSrc}
           onEnded={handleEnded}

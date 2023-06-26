@@ -62,28 +62,20 @@ export default function HomeAbout() {
         <div className="absolute z-20 bg-gradient-to-t from-slate-100 dark:bg-gradient-to-t dark:from-slate-800 left-0 right-0 top-0 bottom-0 mb[-5px]" />
         <div className="px-5 z-20">
           <div className="text-center cursor-default">
-            <p
-              className="uppercase text-sm tracking-widest text-black dark:text-light text-shadow-light dark:text-shadow-secondary pt-14 font-neuton"
-              data-aos="flip-right"
-              data-aos-duration="2000"
-            >
+            <p className="uppercase text-sm tracking-widest text-black dark:text-light text-shadow-light dark:text-shadow-secondary pt-14 font-neuton">
               LET&#39;S BUILD SOMETHING TOGETHER
             </p>
             <h1
               className="py-4 text-gray-700 dark:text-slate-200 text-shadow-light dark:text-shadow-secondary"
-              data-aos="zoom-in-up"
-              data-aos-duration="3000"
+              // data-aos="zoom-in-down"
+              // data-aos-duration="1000"
             >
               Hi, I&#39;m{" "}
               <span className="text-primary text-shadow-light dark:text-shadow-secondary">
                 Mardian
               </span>
             </h1>
-            <h1
-              className=" text-gray-700 dark:text-slate-200 text-shadow-light dark:text-shadow-secondary"
-              data-aos="zoom-in-up"
-              data-aos-duration="1000"
-            >
+            <h1 className=" text-gray-700 dark:text-slate-200 text-shadow-light dark:text-shadow-secondary">
               A Front-End
             </h1>
             <div className="relative py-6 md:py-8">
@@ -94,22 +86,14 @@ export default function HomeAbout() {
                 WebDeveloper
               </h1>
             </div>
-            <p
-              className="py-4 pb-5 text-black dark:text-light text-shadow-light dark:text-shadow-secondary font-ubuntu"
-              data-aos="flip-right"
-              data-aos-duration="2000"
-            >
+            <p className="py-4 pb-5 text-black dark:text-light text-shadow-light dark:text-shadow-secondary font-ubuntu">
               I&#39;m focused on building responsive front-end web applications
               integrating back-end technologies.
             </p>
           </div>
 
           <div className="mx-auto max-w-[320px] md:max-w-full">
-            <ul
-              className="flex justify-between"
-              data-aos="zoom-in-up"
-              data-aos-duration="2000"
-            >
+            <ul className="flex justify-between">
               {icons.map((icon, index) => (
                 <li className="group" key={index}>
                   <Link href={icon.href}>

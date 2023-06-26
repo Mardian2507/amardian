@@ -1,5 +1,4 @@
 import Layout from "@components/Layout";
-import propertyImg from "@public/assets/projects/property.jpg";
 import ytbTomp3 from "@public/assets/projects/ytbtomp3.webp";
 import MarrimaCafeImg from "@public/assets/projects/marrimacafe.webp";
 import MozTrackerImg from "@public/assets/projects/moztracker.webp";
@@ -17,7 +16,7 @@ import Mp3Icon from "components/svgs/mp3Icon";
 import AudioPlayer from "components/Audioplayer";
 
 export default function Projects() {
-  const [ShowAudio, setShowAudio] = useState(false);
+  const [ShowAudio, setShowAudio] = useState(true);
 
   const audioList = [
     { title: "Spirited-Away", audioSrc: "/assets/audio/Spirited-Away.mp3" },
@@ -29,7 +28,7 @@ export default function Projects() {
   ];
 
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden";
 
     return () => {
       document.body.style.overflow = "auto";
@@ -127,17 +126,11 @@ export default function Projects() {
         </div>
 
         <div className="lg:max-w-7xl mx-auto px-2 pt-16 pb-24">
-          <h2
-            className="pt-2 text-center tracking-widest uppercase text-primary"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
+          <h2 className="pt-2 text-center tracking-widest uppercase text-primary">
             Projects
           </h2>
 
-          <h2 className="py-4" data-aos="zoom-in-up" data-aos-duration="1000">
-            What I&apos;ve Built
-          </h2>
+          <h2 className="py-4">What I&apos;ve Built</h2>
 
           <div className="z-30 flex justify-center py-10">
             <button

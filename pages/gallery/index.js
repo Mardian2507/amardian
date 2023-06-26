@@ -29,11 +29,7 @@ export default function Gallery() {
           </div>
 
           <div className="px-1 lg:px-4 flex flex-col justify-center items-center">
-            <h2
-              className="mt-7 mb-5 text-center tracking-widest  text-primary uppercase"
-              // data-aos="fade-down"
-              // data-aos-duration="1000"
-            >
+            <h2 className="mt-7 mb-5 text-center tracking-widest  text-primary uppercase">
               Gallery
             </h2>
 

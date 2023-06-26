@@ -69,17 +69,11 @@ export default function Skills() {
     <Layout title="Mardian Skills">
       <div className="w-full min-h-screen">
         <div className="lg:max-w-7xl m-auto px-2 pt-16 flex flex-col justify-center">
-          <h2
-            className="pt-2 text-center tracking-widest uppercase text-primary z-20"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
+          <h2 className="pt-2 text-center tracking-widest uppercase text-primary z-20">
             Skills
           </h2>
           <div className="z-20 pt-4">
-            <h2 data-aos="zoom-in-up" data-aos-duration="1000">
-              What I Can Do
-            </h2>
+            <h2>What I Can Do</h2>
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 z-20 py-5">
@@ -87,8 +81,6 @@ export default function Skills() {
               <div
                 key={items.id}
                 className="backdrop-blur-xl p-6 shadow-md shadow-black hover:shadow-lg rounded-xl"
-                data-aos="zoom-in-up"
-                data-aos-duration="2000"
               >
                 <div className="group grid grid-cols-2 gap-4 justify-center items-center hover:scale-105 ease-in duration-300">
                   <div className="m-auto">
