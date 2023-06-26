@@ -12,7 +12,7 @@ export default function ParallaxSunset() {
               {
                 speed: -40,
                 children: (
-                  <div className="lg:translate-y-[350px] w-full">
+                  <div className="lg:translate-y-[320px] w-full">
                     <Image
                       alt="bg"
                       src="/assets/sunset/9.webp"
@@ -28,7 +28,7 @@ export default function ParallaxSunset() {
               {
                 speed: -50,
                 children: (
-                  <div className="lg:translate-y-[460px] w-full">
+                  <div className="lg:translate-y-[500px] w-full">
                     <Image
                       alt="bgstone"
                       src="/assets/sunset/8.webp"
@@ -45,7 +45,7 @@ export default function ParallaxSunset() {
                 translateX: [100, 0],
                 speed: 20,
                 children: (
-                  <div className="absolute  lg:translate-y-[170px] lg:translate-x-[-640px] ">
+                  <div className="absolute lg:translate-y-[130px] lg:translate-x-[-700px] ">
                     <Image
                       alt="bird"
                       src="/assets/sunset/7.webp"
@@ -62,7 +62,7 @@ export default function ParallaxSunset() {
                 translateX: [0, 100],
                 speed: 10,
                 children: (
-                  <div className="absolute lg:translate-x-[-135px] lg:translate-y-[220px]">
+                  <div className="absolute lg:translate-x-[-70px] lg:translate-y-[190px]">
                     <Image
                       alt="my"
                       src="/assets/sunset/6.webp"
