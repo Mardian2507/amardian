@@ -12,7 +12,7 @@ export default function ParallaxSunset() {
               {
                 speed: -40,
                 children: (
-                  <div className=" translate-y-[490px] md:translate-y-[500px] lg:translate-y-[360px] w-full">
+                  <div className="lg:translate-y-[350px] w-full">
                     <Image
                       alt="bg"
                       src="/assets/sunset/9.webp"
