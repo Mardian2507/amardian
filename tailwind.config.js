@@ -126,27 +126,39 @@ module.exports = {
           transform: "translateZ(50px)",
         },
         ".tilt-bgft1": {
-          transform: "translateZ(100px)",
+          transform: "translateZ(180px)",
         },
         ".tilt-bgft2": {
-          transform: "translateZ(80px)",
+          transform: "translateZ(160px)",
         },
         ".tilt-bgft3": {
-          transform: "translateZ(60px)",
+          transform: "translateZ(140px)",
         },
         ".tilt-bgft4": {
-          transform: "translateZ(50px)",
+          transform: "translateZ(120px)",
         },
         ".tilt-bgft5": {
-          transform: "translateZ(40px)",
+          transform: "translateZ(100px)",
         },
         ".tilt-bgft6": {
-          transform: "translateZ(20px)",
+          transform: "translateZ(80px)",
         },
         ".tilt-bgft7": {
-          transform: "translateZ(10px)",
+          transform: "translateZ(50px)",
         },
         ".tilt-bgft8": {
+          transform: "translateZ(40px)",
+        },
+        ".tilt-bgft9": {
+          transform: "translateZ(30px)",
+        },
+        ".tilt-bgft10": {
+          transform: "translateZ(20px)",
+        },
+        ".tilt-bgft11": {
+          transform: "translateZ(10px)",
+        },
+        ".tilt-bgft12": {
           transform: "translateZ(2px)",
         },
         ".bg-404": {

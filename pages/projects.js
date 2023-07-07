@@ -147,11 +147,9 @@ export default function Projects() {
                   ShowAudio ? "block" : "hidden"
                 }`}
               >
-                <span className="pl-5 animate-pulse tilt-bgft2">Audio</span>
-                <Mp3Icon className="w-40 animate-fly group-hover:animate-none tilt-bgft4" />
-                <span className="pl-3 pr-5 animate-pulse tilt-bgft2">
-                  Player
-                </span>
+                <span className="pl-5 animate-pulse">Audio</span>
+                <Mp3Icon className="w-40 animate-fly group-hover:animate-none tilt-bgft10" />
+                <span className="pl-3 pr-5 animate-pulse">Player</span>
               </Tilt>
             </button>
           </div>
