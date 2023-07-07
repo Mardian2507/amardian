@@ -130,7 +130,9 @@ export default function Projects() {
             Projects
           </h2>
 
-          <h2 className="py-4">What I&apos;ve Built</h2>
+          <h3 className="pt-8 text-2xl md:text-3xl  flex justify-center">
+            What I&apos;ve Built
+          </h3>
 
           <div className="z-30 flex justify-center py-10">
             <button

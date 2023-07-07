@@ -74,13 +74,13 @@ const imgSkills = [
 export default function Skills() {
   return (
     <Layout title="Mardian Skills">
-      <div className=" relative w-full min-h-screen overflow-hidden dark:bg-black bg-slate-400">
-        <div className="lg:max-w-7xl m-auto px-2 lg:px-0 pt-16 lg:pt-0 flex flex-col items-center justify-center">
-          <h2 className="lg:fixed top-24 pt-2 text-center tracking-widest uppercase text-light z-30 text-shadow-secondary">
+      <div className=" relative w-full min-h-screen overflow-hidden md:dark:bg-black md:bg-slate-400">
+        <div className="lg:max-w-7xl m-auto pt-16 lg:pt-0 flex flex-col items-center justify-center">
+          <h2 className="lg:fixed top-24 pt-2 text-center tracking-widest uppercase text-primary lg:text-light z-30 lg:text-shadow-secondary">
             Skills
           </h2>
-          <div className="lg:fixed pt-6 pb-2 lg:py-0 right-52 top-44 z-30 px-5 text-light">
-            <h3 className="text-xl md:text-3xl">What I Can Do</h3>
+          <div className="lg:fixed pt-6 pb-2 lg:py-0 right-52 top-44 z-30 px-5 lg:text-light">
+            <h3 className="text-2xl md:text-3xl">What I Can Do</h3>
           </div>
           <div className="fixed w-full h-12 bg-light opacity-80 dark:bg-opacity-0 z-10 top-0" />
 
@@ -89,13 +89,13 @@ export default function Skills() {
             src={Skillsbg7}
             width="1500"
             height="auto"
-            className="fixed aspect-[4/16] lg:aspect-[16/12] "
+            className="fixed hidden lg:block lg:aspect-[16/12] "
             priority
           />
 
-          <div className="lg:fixed top-60 grid lg:grid-cols-6 z-30">
+          <div className="lg:fixed top-60 grid lg:grid-cols-6 z-30 mb-10">
             <div className="col-span-3"></div>
-            <div className="grid grid-cols-2 md:grid-cols-5  lg:col-span-3 gap-4 lg:gap-2 z-20 px-10">
+            <div className="grid grid-cols-3 md:grid-cols-5  lg:col-span-3 gap-4 lg:gap-2 z-20 px-4 lg:px-10">
               {imgSkills.map((items) => (
                 <div
                   key={items.id}
